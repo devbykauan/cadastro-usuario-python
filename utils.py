@@ -2,7 +2,7 @@ def validar_nome(nome):
     nome = nome.strip()
     if nome == '':
         return None
-    return None
+    return nome
 
 def validar_idade(texto):
     try:
